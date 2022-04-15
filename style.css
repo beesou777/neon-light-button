@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: rgb(39, 38, 38);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: whitesmoke;
+    position: relative;
+    margin: auto;
+    top: -50px;
+
+
+
+}
+
+.btn-1 {
+    display: block;
+    background: transparent;
+    color: rgb(52, 119, 196);
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1em;
+    top: 50%;
+    left: 37%;
+    transform: translate(-50, -50);
+    position: absolute;
+    padding: 8px 20px;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+h1:hover{
+    color: #255784;
+    background: #17d8b8;
+    box-shadow: 0 0 10px #209aca, 0 0 10px #28afa4, 0 0 10px hsl(177, 68%, 53%);
+    transition: 1.5s;
+}
+
+a span {
+    display: block;
+    position: absolute;
+}
+
+.btn-1:hover {
+    background: #209aca;
+    transition: 3s;
+    color: whitesmoke;
+    box-shadow: 0 0 10px #209aca, 0 0 10px #28afa4, 0 0 10px hsl(177, 68%, 53%);
+}
+
+a span:nth-child(1) {
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #2196f3);
+
+
+}
+
+a:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+
+}
+a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #2196f3);
+
+
+}
+
+a:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.3s;
+    
+
+}
+
+
+.btn {
+    background: transparent;
+    cursor: pointer;
+    color: rgb(52, 119, 196);
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, -50);
+    position: absolute;
+    padding: 8px 20px;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: #255784;
+    background: #17d8b8;
+    box-shadow: 0 0 10px #209aca, 0 0 10px #28afa4, 0 0 10px hsl(177, 68%, 53%);
+    transition: 1.5s;
+
+
+
+}
